@@ -10,4 +10,9 @@ class Product
         $this->name = $name;
         $this->price = $price;
     }
+
+    public function finalPrice(float $discount): float
+    {
+    return $this->price;
+    }
 }
